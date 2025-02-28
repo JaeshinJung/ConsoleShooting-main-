@@ -17,6 +17,9 @@ void Player::Update()
 {
 	Move();
 	Clipping();
+	if (GetAsyncKeyState(VK_SPACE)) {
+		CreateBullet(x, y);
+	}
 }
 
 void Player::Draw()
