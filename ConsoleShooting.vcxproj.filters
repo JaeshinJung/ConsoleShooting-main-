@@ -19,6 +19,18 @@
     <Filter Include="Bullet">
       <UniqueIdentifier>{43ad6306-15a0-4dd2-9b3a-2483979ab233}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameMng">
+      <UniqueIdentifier>{3f4cd980-17d1-42de-a4bb-76bf5a5af1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{a3839e2c-1145-4815-975d-c1528830a9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit">
+      <UniqueIdentifier>{b7147678-fd0e-4934-adb5-e28a62031983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{3eb752de-f6d1-4545-b1db-f31b3fad241f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +45,18 @@
     <ClCompile Include="Bullet.cpp">
       <Filter>Bullet</Filter>
     </ClCompile>
+    <ClCompile Include="GameMng.cpp">
+      <Filter>GameMng</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -46,6 +70,18 @@
     </ClInclude>
     <ClInclude Include="Bullet.h">
       <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMng.h">
+      <Filter>GameMng</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effect</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

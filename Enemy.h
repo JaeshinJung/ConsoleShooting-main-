@@ -1,11 +1,10 @@
 #pragma once
-class Bullet : public Unit
+class Enemy : public Unit
 {
 public:
-	Bullet();
-	~Bullet();
+	Enemy();
+	~Enemy();
 
 	void Move() override;
 	void Clipping() override;
 };
-

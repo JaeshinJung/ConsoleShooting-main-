@@ -2,8 +2,7 @@
 
 int screenIndex;
 HANDLE hScreen[2];
-
-Player player;
+GameMng gameMng;
 
 int x, y;
 
@@ -22,12 +21,12 @@ void Init()
 }
 void Update()
 {
-	player.Update();
+	gameMng.Update();
 }
 void Draw()
 {
 	ClearScreen();
-	player.Draw();
+	gameMng.Draw();
 	Flip();
 }
 void Release()
