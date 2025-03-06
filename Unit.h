@@ -1,5 +1,6 @@
 #pragma once
-class Unit {
+class Unit 
+{
 public: // private, protected
 	Unit();
 	~Unit();

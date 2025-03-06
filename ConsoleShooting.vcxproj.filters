@@ -31,6 +31,12 @@
     <Filter Include="Effect">
       <UniqueIdentifier>{3eb752de-f6d1-4545-b1db-f31b3fad241f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{c3e42715-e64c-4296-81b2-20bc6736464c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{e66b3391-5fb4-4c41-b070-719bd1aeaae9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -57,6 +63,9 @@
     <ClCompile Include="Effect.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -82,6 +91,12 @@
     </ClInclude>
     <ClInclude Include="Effect.h">
       <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Text</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
