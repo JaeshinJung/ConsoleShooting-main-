@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <Windows.h>	//win32 API
 #include <time.h>
+#include <string>
+#include <sstream>
+
 #include "Define.h"
+#include "Singleton.h"
 
 #include "Unit.h"
 
@@ -9,8 +13,11 @@
 #include "Bullet.h"
 #include "Enemy.h"
 #include "Effect.h"
+#include "Text.h"
 
 #include "GameMng.h"
+
+
 
 void Init();
 void Update();
@@ -22,5 +29,3 @@ void DrawChar(int x, int y, const char c, WORD fcolor, WORD bcolor);
 void EngineSync(int fps);
 void ClearScreen();
 void Flip();
-
-extern GameMng gameMng;

@@ -41,6 +41,7 @@ void GameMng::Draw()
 	for (int i = 0; i < D_EFFECT_MAX; i++) {
 		effects[i].Draw();
 	}
+	text.Draw();
 }
 
 void GameMng::EnemyBulletCollision()

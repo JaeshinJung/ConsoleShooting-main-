@@ -17,7 +17,7 @@ void Player::Update()
 	Move();
 	Clipping();
 	if (GetAsyncKeyState(VK_SPACE)) {
-		gameMng.CreateBullet(x, y);
+		GameMng().getIns()->CreateBullet(x, y);
 	}
 }
 
