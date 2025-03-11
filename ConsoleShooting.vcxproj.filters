@@ -37,6 +37,15 @@
     <Filter Include="Text">
       <UniqueIdentifier>{e66b3391-5fb4-4c41-b070-719bd1aeaae9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{a700afc8-1e97-44b1-a91d-e613aa23a940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\GameState">
+      <UniqueIdentifier>{7b370238-ae27-4670-8a0b-680ba2c8c60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\MenuState">
+      <UniqueIdentifier>{54996b0e-86dc-4fd5-a5ab-4638b37dc441}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -65,6 +74,21 @@
     </ClCompile>
     <ClCompile Include="Text.cpp">
       <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="StateCtrl.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>State\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>State\MenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuEffect.cpp">
+      <Filter>Effect</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +121,21 @@
     </ClInclude>
     <ClInclude Include="Text.h">
       <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="StateCtrl.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>State\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>State\MenuState</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuEffect.h">
+      <Filter>Effect</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

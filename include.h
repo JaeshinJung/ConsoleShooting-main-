@@ -2,6 +2,7 @@
 #include <Windows.h>	//win32 API
 #include <time.h>
 #include <string>
+#include <iostream>
 #include <sstream>
 
 #include "Define.h"
@@ -14,10 +15,17 @@
 #include "Enemy.h"
 #include "Effect.h"
 #include "Text.h"
+#include "MenuEffect.h"
+
+#include "State.h"
+#include "StateCtrl.h"
+
+#include "GameState.h"
+#include "MenuState.h"
 
 #include "GameMng.h"
 
-
+extern int score;
 
 void Init();
 void Update();

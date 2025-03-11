@@ -1,11 +1,11 @@
 #include "include.h"
+int score = 0;
 
 Text::Text()
 {
 	str = "Hello";
 	isAlive = true;
-	stringstream ss;
-	ss << "Hello" << 10 << 'A';
+	ss << "Score: " << score;
 	
 	str = ss.str();
 }
@@ -19,4 +19,11 @@ void Text::Draw()
 	if (isAlive) {
 		DrawStr(x, y, str.c_str(), fColor, bColor);
 	}
+}
+
+void Text::Update()
+{
+	ss.str("");
+	ss << "Score: " << score;
+	str = ss.str();
 }

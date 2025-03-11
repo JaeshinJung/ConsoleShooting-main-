@@ -8,6 +8,8 @@ public:
 	~Text();
 	
 	string str;
+	stringstream ss;
 
 	void Draw() override;
+	void Update() override;
 };
