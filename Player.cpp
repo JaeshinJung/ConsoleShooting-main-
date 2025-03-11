@@ -17,7 +17,7 @@ void Player::Update()
 	Move();
 	Clipping();
 	if (GetAsyncKeyState(VK_SPACE)) {
-		GameMng().getIns()->CreateBullet(x, y);
+		((GameState*)GameMng::getIns()->stateCtrl.m_pCurState)->CreateBullet(x,y);
 	}
 }
 
