@@ -59,6 +59,14 @@ bool CStateCtrl::StateChange(int nIndex)
 	}
 }
 
+bool CStateCtrl::StateChange(CState* pState)
+{
+	delete m_pCurState;
+	m_pCurState = pState;
+
+	return false;
+}
+
 void CStateCtrl::Update()
 {
 	if (m_pCurState != NULL)

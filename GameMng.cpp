@@ -2,10 +2,10 @@
 
 GameMng::GameMng()
 {
-	stateCtrl.StateAdd(STATE::MENU,new MenuState);
-	stateCtrl.StateAdd(STATE::GAME,new GameState);
+	/*stateCtrl.StateAdd(STATE::MENU,new MenuState);
+	stateCtrl.StateAdd(STATE::GAME,new GameState);*/
 	
-	stateCtrl.StateChange(STATE::MENU);
+	stateCtrl.StateChange(new MenuState);
 }
 
 GameMng::~GameMng()
