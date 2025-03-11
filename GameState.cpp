@@ -16,7 +16,7 @@ void GameState::Start()
 void GameState::Update()
 {
 	if (GetAsyncKeyState(VK_F2)) {
-		GameMng::getIns()->stateCtrl.StateChange(STATE::MENU);
+		GameMng::getIns()->stateCtrl.StateChange(new MenuState);
 	}
 	player.Update();
 	for (int i = 0; i < D_BULLET_MAX; i++) {

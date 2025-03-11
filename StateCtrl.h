@@ -17,6 +17,7 @@ public:
 	bool StateAdd(int nIndex, CState* pState);
 	bool StateRelease(int nIndex);
 	bool StateChange(int nIndex);
+	bool StateChange(CState* pState);
 
 public:
 	void Update();
