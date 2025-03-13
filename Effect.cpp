@@ -35,7 +35,7 @@ void Effect::Update()
 	if (isAlive && indextUpdateTime <= GetTickCount())
 	{
 		index++;
-		indextUpdateTime = GetTickCount() + 300;
+		indextUpdateTime = GetTickCount() + 200;
 
 		if (index >= 3)
 			Disable();

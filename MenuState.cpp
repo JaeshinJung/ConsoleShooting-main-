@@ -22,7 +22,7 @@ void MenuState::Update()
 
 void MenuState::Draw()
 {
-	DrawStr(10, 10, "MenuState", WHITE, BLACK);
+	mEffect.Draw();
 }
 
 void MenuState::Exit()

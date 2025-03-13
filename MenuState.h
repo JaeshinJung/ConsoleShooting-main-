@@ -5,6 +5,8 @@ public:
 	MenuState();
 	~MenuState();
 
+	MenuEffect mEffect;
+
 	void Start();
 	void Update();
 	void Draw();

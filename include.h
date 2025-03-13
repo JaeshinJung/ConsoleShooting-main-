@@ -15,6 +15,7 @@
 #include "Bullet.h"
 #include "Enemy.h"
 #include "Effect.h"
+#include "MenuEffect.h"
 
 #include "Text.h"
 
