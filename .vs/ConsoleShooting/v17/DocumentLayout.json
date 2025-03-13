@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuEffect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:MenuEffect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:MenuState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuEffect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:MenuEffect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Effect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Effect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\StateCtrl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:StateCtrl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameMng.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:GameMng.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:MenuState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameMng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:GameMng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameState.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameState.cpp",
-              "RelativeDocumentMoniker": "GameState.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameState.cpp",
-              "RelativeToolTip": "GameState.cpp",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T12:21:14.296Z",
+              "DocumentIndex": 2,
+              "Title": "MenuEffect.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuEffect.h",
+              "RelativeDocumentMoniker": "MenuEffect.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuEffect.h",
+              "RelativeToolTip": "MenuEffect.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-13T12:28:58.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MenuState.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuState.cpp",
+              "RelativeDocumentMoniker": "MenuState.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuState.cpp",
+              "RelativeToolTip": "MenuState.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T12:30:10.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuEffect.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuEffect.cpp",
+              "RelativeDocumentMoniker": "MenuEffect.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuEffect.cpp",
+              "RelativeToolTip": "MenuEffect.cpp",
+              "ViewState": "AQIAACUAAAAAAAAAAAAnwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T12:28:44.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StateCtrl.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\StateCtrl.cpp",
+              "RelativeDocumentMoniker": "StateCtrl.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\StateCtrl.cpp",
+              "RelativeToolTip": "StateCtrl.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T12:31:40.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameMng.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameMng.cpp",
               "RelativeDocumentMoniker": "GameMng.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameMng.cpp",
               "RelativeToolTip": "GameMng.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-13T12:07:54.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameMng.h",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameMng.h",
-              "RelativeDocumentMoniker": "GameMng.h",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\GameMng.h",
-              "RelativeToolTip": "GameMng.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "DocumentIndex": 6,
+              "Title": "MenuState.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuState.h",
+              "RelativeDocumentMoniker": "MenuState.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\MenuState.h",
+              "RelativeToolTip": "MenuState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-13T12:07:56.002Z",
+              "WhenOpened": "2025-03-13T12:28:23.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Sound.h",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Sound.h",
-              "RelativeDocumentMoniker": "Sound.h",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Sound.h",
-              "RelativeToolTip": "Sound.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-13T12:07:33.889Z",
+              "Title": "Effect.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Effect.cpp",
+              "RelativeDocumentMoniker": "Effect.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Effect.cpp",
+              "RelativeToolTip": "Effect.cpp",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwCAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T12:40:41.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Sound.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Sound.cpp",
-              "RelativeDocumentMoniker": "Sound.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\Sound.cpp",
-              "RelativeToolTip": "Sound.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T12:07:45.114Z",
+              "DocumentIndex": 7,
+              "Title": "include.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\include.h",
+              "RelativeDocumentMoniker": "include.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ConsoleShooting-main-\\include.h",
+              "RelativeToolTip": "include.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-13T12:27:23.035Z",
               "EditorCaption": ""
             }
           ]
