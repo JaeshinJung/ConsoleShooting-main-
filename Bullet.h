@@ -8,4 +8,3 @@ public:
 	void Move() override;
 	void Clipping() override;
 };
-

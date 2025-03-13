@@ -1,6 +1,6 @@
 #pragma once
-//디자인 패턴
-//싱글톤 패턴 -> 프로그램 내에서 객체 1개, 언제 어디서든 접근 가능
+// 디자인 패턴
+// 싱글톤 패턴 -> 프로그램 내에서 객체 1개, 언제 어디서든 접근 가능
 template<typename T>
 class Singleton
 {
@@ -8,12 +8,14 @@ protected:
 	Singleton() {};
 	~Singleton() {};
 
-	Singleton(const Singleton& s) = delete;		//복사 생성자 삭제
+	Singleton(const Singleton&) = delete;				//복사 생성자 삭제
 	Singleton& operator=(const Singleton& a) = delete;	//대입 연산자 오버로드 삭제
 
 public:
-	static T* getIns() {
-		if (instance == nullptr) {
+	static T* GetIns()
+	{
+		if (instance == nullptr)
+		{
 			instance = new T();
 		}
 		return instance;

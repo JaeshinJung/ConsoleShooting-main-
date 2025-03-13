@@ -16,7 +16,8 @@ Unit::~Unit()
 
 void Unit::Update()
 {
-	if (isAlive){
+	if (isAlive)
+	{
 		Move();
 		Clipping();
 	}
@@ -24,28 +25,25 @@ void Unit::Update()
 
 void Unit::Draw()
 {
-	if (isAlive) {
+	if (isAlive)
 		DrawChar(x, y, body, fColor, bColor);
-	}
 }
 
 void Unit::Move()
 {
-	y += 1;
+
 }
 
 void Unit::Clipping()
 {
-	if (y < 0) {
-		Disable();
-	}
+
 }
 
 void Unit::Enable(int x, int y)
 {
-	isAlive = true;
 	this->x = x;
 	this->y = y;
+	isAlive = true;
 }
 
 void Unit::Disable()

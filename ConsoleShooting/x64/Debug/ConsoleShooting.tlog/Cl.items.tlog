@@ -1,14 +1,2 @@
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\Bullet.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\Bullet.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleFramework.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\ConsoleFramework.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\Effect.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\Effect.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\Enemy.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\Enemy.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\GameMng.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\GameMng.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\GameState.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\GameState.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\main.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\main.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\MenuEffect.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\MenuEffect.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\MenuState.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\MenuState.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\Player.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\Player.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\State.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\State.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\StateCtrl.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\StateCtrl.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\Text.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\Text.obj
-C:\Users\User\Documents\GitHub\ConsoleShooting-main-\Unit.cpp;C:\Users\User\Documents\GitHub\ConsoleShooting-main-\ConsoleShooting\x64\Debug\Unit.obj
+C:\Users\User\Downloads\ConsoleShooting-main\ConsoleFramework.cpp;C:\Users\User\Downloads\ConsoleShooting-main\ConsoleShooting\x64\Debug\ConsoleFramework.obj
+C:\Users\User\Downloads\ConsoleShooting-main\main.cpp;C:\Users\User\Downloads\ConsoleShooting-main\ConsoleShooting\x64\Debug\main.obj

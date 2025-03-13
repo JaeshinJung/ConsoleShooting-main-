@@ -1,7 +1,7 @@
 #pragma once
-class Unit 
+class Unit
 {
-public: // private, protected
+public:	// private, protected
 	Unit();
 	~Unit();
 
@@ -12,7 +12,7 @@ public: // private, protected
 	WORD fColor;
 	WORD bColor;
 
-	virtual void Update();
+	virtual void Update();		//가상함수
 	virtual void Draw();
 
 	virtual void Move();
