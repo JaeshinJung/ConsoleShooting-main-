@@ -28,6 +28,7 @@ bool CStateCtrl::StateRelease(int nIndex)
 {
 	if (m_pStates[nIndex] != NULL)
 	{
+		// delete m_pStates[nIndex];
 		m_pStates[nIndex] = NULL;
 		return true;
 	}

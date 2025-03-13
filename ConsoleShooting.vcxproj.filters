@@ -14,37 +14,40 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Player">
-      <UniqueIdentifier>{52d1cafa-a83e-4bac-846a-45a0e7413c12}</UniqueIdentifier>
+      <UniqueIdentifier>{6109991b-45fe-4d21-9bb9-93a8bf431afc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Bullet">
-      <UniqueIdentifier>{43ad6306-15a0-4dd2-9b3a-2483979ab233}</UniqueIdentifier>
+      <UniqueIdentifier>{5aac6cec-a921-484e-8924-277ecde4f9ed}</UniqueIdentifier>
     </Filter>
     <Filter Include="GameMng">
-      <UniqueIdentifier>{3f4cd980-17d1-42de-a4bb-76bf5a5af1c8}</UniqueIdentifier>
+      <UniqueIdentifier>{435665c7-da9d-446d-a6ca-d7d3a6317917}</UniqueIdentifier>
     </Filter>
     <Filter Include="Enemy">
-      <UniqueIdentifier>{a3839e2c-1145-4815-975d-c1528830a9a6}</UniqueIdentifier>
+      <UniqueIdentifier>{1f8265e3-4075-401c-92e6-2ba08ab5a0fc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Unit">
-      <UniqueIdentifier>{b7147678-fd0e-4934-adb5-e28a62031983}</UniqueIdentifier>
+      <UniqueIdentifier>{f7880b4a-1d6b-4734-b328-cca4de2c9920}</UniqueIdentifier>
     </Filter>
     <Filter Include="Effect">
-      <UniqueIdentifier>{3eb752de-f6d1-4545-b1db-f31b3fad241f}</UniqueIdentifier>
+      <UniqueIdentifier>{05040d1d-b958-482e-b1f0-84aff97226e1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Singleton">
-      <UniqueIdentifier>{c3e42715-e64c-4296-81b2-20bc6736464c}</UniqueIdentifier>
+      <UniqueIdentifier>{ee2c2b12-1c49-4003-a6d8-897839bb41bd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text">
-      <UniqueIdentifier>{e66b3391-5fb4-4c41-b070-719bd1aeaae9}</UniqueIdentifier>
+      <UniqueIdentifier>{554474e2-ac7d-4406-a2a6-4e5227eb04b8}</UniqueIdentifier>
     </Filter>
     <Filter Include="State">
-      <UniqueIdentifier>{a700afc8-1e97-44b1-a91d-e613aa23a940}</UniqueIdentifier>
+      <UniqueIdentifier>{cd03440a-6930-40e1-829e-09f3c7fd28e8}</UniqueIdentifier>
     </Filter>
     <Filter Include="State\GameState">
-      <UniqueIdentifier>{7b370238-ae27-4670-8a0b-680ba2c8c60d}</UniqueIdentifier>
+      <UniqueIdentifier>{aa505c99-d9b1-4985-88b1-307be8e8c728}</UniqueIdentifier>
     </Filter>
     <Filter Include="State\MenuState">
-      <UniqueIdentifier>{54996b0e-86dc-4fd5-a5ab-4638b37dc441}</UniqueIdentifier>
+      <UniqueIdentifier>{c6b4b145-55e2-4cb3-b16a-ad76ec6d355c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{d4510aeb-6d93-4ebf-b365-193571534e28}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -87,8 +90,8 @@
     <ClCompile Include="MenuState.cpp">
       <Filter>State\MenuState</Filter>
     </ClCompile>
-    <ClCompile Include="MenuEffect.cpp">
-      <Filter>Effect</Filter>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -134,8 +137,8 @@
     <ClInclude Include="MenuState.h">
       <Filter>State\MenuState</Filter>
     </ClInclude>
-    <ClInclude Include="MenuEffect.h">
-      <Filter>Effect</Filter>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

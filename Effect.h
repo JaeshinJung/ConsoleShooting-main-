@@ -6,7 +6,7 @@ public:
 	~Effect();
 
 	int index;
-	DWORD indexUpdateTime;
+	DWORD indextUpdateTime;
 
 	void Update() override;
 	void Draw() override;

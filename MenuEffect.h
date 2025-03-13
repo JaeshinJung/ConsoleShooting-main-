@@ -6,6 +6,9 @@ public:
 	MenuEffect();
 	~MenuEffect();
 
-	void Draw() override;
+	void MDraw();
+	void EDraw();
+	void NDraw();
+	void UDraw();
 
 };

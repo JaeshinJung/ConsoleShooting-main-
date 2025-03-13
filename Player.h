@@ -1,11 +1,11 @@
 #pragma once
-class Player : public Unit 
+class Player : public Unit
 {
 public:
 	Player();
 	~Player();
 
-	void Update() override; 
+	void Update() override;
 
 	void Move() override;
 	void Clipping() override;

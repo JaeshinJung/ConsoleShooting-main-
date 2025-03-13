@@ -14,14 +14,15 @@ void MenuState::Start()
 
 void MenuState::Update()
 {
-	if (GetAsyncKeyState(VK_F1)) {
-		GameMng::getIns()->stateCtrl.StateChange(new GameState);
+	if (GetAsyncKeyState(VK_F1))
+	{
+		GameMng::GetIns()->stateCtrl.StateChange(new GameState);
 	}
 }
 
 void MenuState::Draw()
 {
-	effect.Draw();
+	DrawStr(10, 10, "MenuState", WHITE, BLACK);
 }
 
 void MenuState::Exit()

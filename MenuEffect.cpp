@@ -1,50 +1,37 @@
 #include "include.h"
 
-char effectBody[5][5][5] =
+char MBody[3][5][5] =
 {
+	{
+		{' ', ' ', ' ',' ',' '},
+		{' ', 'o', ' ','o',' '},
+		{' ', ' ', 'o',' ',' '},
+		{' ', ' ', ' ',' ',' '},
+		{' ', ' ', ' ',' ',' '}
+	},
+	{
+		{'o', ' ', ' ',' ','o'},
+		{'o', 'o', ' ','o','o'},
+		{' ', ' ', 'o',' ',' '},
+		{' ', ' ', ' ',' ',' '},
+		{' ', ' ', ' ',' ',' '}
+	},
 	{
 		{'o', ' ', ' ',' ','o'},
 		{'o', 'o', ' ','o','o'},
 		{'o', ' ', 'o',' ','o'},
 		{'o', ' ', ' ',' ','o'},
 		{'o', ' ', ' ',' ','o'}
-	},
-	{
-		{'o', 'o', 'o','o','o'},
-		{'o', ' ', ' ',' ',' '},
-		{'o', 'o', 'o','o','o'},
-		{'o', ' ', ' ',' ',' '},
-		{'o', 'o', 'o','o','o'}
-	},
-	{
-		{'o', ' ', ' ',' ','o'},
-		{'o', 'o', ' ',' ','o'},
-		{'o', ' ', 'o',' ','o'},
-		{'o', ' ', ' ','o','o'},
-		{'o', ' ', ' ',' ','o'}
-	},
-	{
-		{'o', ' ', ' ',' ','o'},
-		{'o', ' ', ' ',' ','o'},
-		{'o', ' ', ' ',' ','o'},
-		{'o', ' ', ' ',' ','o'},
-		{' ', 'o', 'o','o',' '}
-	},
-	{
-		{'o', 'o', 'o','o','o'},
-		{'o', ' ', ' ',' ',' '},
-		{'o', 'o', 'o','o','o'},
-		{'o', ' ', ' ',' ',' '},
-		{'o', 'o', 'o','o','o'}
 	}
 };
 
 MenuEffect::MenuEffect()
 {
-	x = 0;
-	y = 0;
 	fColor = BLUE;
 	bColor = BLACK;
+	index = 0;
+	x = 0;
+	y = 0;
 }
 
 MenuEffect::~MenuEffect()
@@ -53,18 +40,15 @@ MenuEffect::~MenuEffect()
 }
 
 
-void MenuEffect::Draw()
+void MenuEffect::MDraw()
 {
-	for (int i = 0; i < 5; i++) {
-		y = 0;
-		for (int j = 0; j < 5; j++) {
-			for (int k = 0; k < 5; k++) {
-				DrawChar(x, y, effectBody[i][j][k], fColor, bColor);
-				x++;
-			}
-			y++;
-		}
-		x++;
+	if (isAlive) {
+		//M
+		DrawStr(x, y, MBody[index][0], fColor, bColor);
+		DrawStr(x, y + 1, MBody[index][1], fColor, bColor);
+		DrawStr(x, y + 2, MBody[index][2], fColor, bColor);
+		DrawStr(x, y + 3, MBody[index][3], fColor, bColor);
+		DrawStr(x, y + 4, MBody[index][4], fColor, bColor);
 	}
 }
 

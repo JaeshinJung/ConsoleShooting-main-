@@ -1,15 +1,11 @@
 #pragma once
-
-using namespace std;
 class Text : public Unit
 {
 public:
 	Text();
 	~Text();
-	
-	string str;
-	stringstream ss;
+
+	std::string str;
 
 	void Draw() override;
-	void Update() override;
 };

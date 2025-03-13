@@ -12,7 +12,7 @@ Bullet::~Bullet()
 
 void Bullet::Move()
 {
-	y -= 1;
+	y--;
 }
 
 void Bullet::Clipping()

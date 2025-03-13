@@ -12,13 +12,11 @@ Enemy::~Enemy()
 
 void Enemy::Move()
 {
-	y += 1;
+	y++;
 }
 
 void Enemy::Clipping()
 {
-	if (y > 29) {
+	if (y > 29)
 		Disable();
-	}
 }
-
