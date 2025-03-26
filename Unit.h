@@ -12,6 +12,8 @@ public:	// private, protected
 	WORD fColor;
 	WORD bColor;
 
+	int id;
+
 	virtual void Update();		//가상함수
 	virtual void Draw();
 

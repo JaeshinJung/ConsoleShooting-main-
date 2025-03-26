@@ -154,7 +154,6 @@
     <ClCompile Include="GameMng.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MenuEffect.cpp" />
     <ClCompile Include="MenuState.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Sound.cpp" />
@@ -171,7 +170,6 @@
     <ClInclude Include="GameMng.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="include.h" />
-    <ClInclude Include="MenuEffect.h" />
     <ClInclude Include="MenuState.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Singleton.h" />

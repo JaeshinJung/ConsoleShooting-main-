@@ -16,7 +16,7 @@ void Player::Update()
 {
 	Unit::Update();
 	if (GetAsyncKeyState(VK_SPACE))
-		((GameState*)GameMng::GetIns()->stateCtrl.m_pCurState)->CreateBullet(x, y);
+		((GameState*)GameMng::GetIns()->stateCtrl.m_pCurState)->CreateObject(ID::BULLET, x, y);
 }
 
 void Player::Move()
