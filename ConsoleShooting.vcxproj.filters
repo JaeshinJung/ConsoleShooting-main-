@@ -49,9 +49,6 @@
     <Filter Include="Sound">
       <UniqueIdentifier>{d4510aeb-6d93-4ebf-b365-193571534e28}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Effect\MenuEffect">
-      <UniqueIdentifier>{c7c1d2cd-5544-46e8-9076-d96a4cb252e2}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -95,9 +92,6 @@
     </ClCompile>
     <ClCompile Include="Sound.cpp">
       <Filter>Sound</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuEffect.cpp">
-      <Filter>Effect\MenuEffect</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -145,9 +139,6 @@
     </ClInclude>
     <ClInclude Include="Sound.h">
       <Filter>Sound</Filter>
-    </ClInclude>
-    <ClInclude Include="MenuEffect.h">
-      <Filter>Effect\MenuEffect</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

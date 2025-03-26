@@ -5,6 +5,12 @@
 #include <sstream>
 #include <fmod.hpp>
 
+// STL
+
+#include <vector>	// 동적배열 방식의 리스트
+
+//#include <list>		// 이중 연결 리스트
+
 #include "Define.h"
 #include "Singleton.h"
 
@@ -15,7 +21,6 @@
 #include "Bullet.h"
 #include "Enemy.h"
 #include "Effect.h"
-#include "MenuEffect.h"
 
 #include "Text.h"
 

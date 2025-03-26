@@ -17,19 +17,20 @@ void GameState::Update()
 {
 
 	player.Update();
-	for (int i = 0;i < D_BULLET_MAX;i++)
-		bullets[i].Update();
+	//for (int i = 0;i < bullets.size();i++)
+	//	bullets[i]->Update();
+	//for (int i = 0;i < enemys.size();i++)
+	//	enemys[i]->Update();
+	//for (int i = 0;i < effects.size();i++)
+	//	effects[i]->Update();
 
-	for (int i = 0;i < D_ENEMY_MAX;i++)
-		enemys[i].Update();
-
-	for (int i = 0;i < D_EFFECT_MAX;i++)
-		effects[i].Update();
+	for (int i = 0;i < gameobjects.size();i++)
+		gameobjects[i]->Update();
 
 	if (createEnemyTime < GetTickCount())
 	{
 		createEnemyTime = GetTickCount() + 100;
-		CreateEnemy(rand() % 120, 0);
+		CreateObject(ID::ENEMY, rand() % 120, 0);
 	}
 	EnemyBulletCollision();
 
@@ -42,14 +43,15 @@ void GameState::Update()
 void GameState::Draw()
 {
 	player.Draw();
-	for (int i = 0;i < D_BULLET_MAX;i++)
-		bullets[i].Draw();
+	//for (int i = 0;i < bullets.size();i++)
+	//	bullets[i]->Draw();
+	//for (int i = 0;i < enemys.size();i++)
+	//	enemys[i]->Draw();
+	//for (int i = 0;i < effects.size();i++)
+	//	effects[i]->Draw();
 
-	for (int i = 0;i < D_ENEMY_MAX;i++)
-		enemys[i].Draw();
-
-	for (int i = 0;i < D_EFFECT_MAX;i++)
-		effects[i].Draw();
+	for (int i = 0;i < gameobjects.size();i++)
+		gameobjects[i]->Draw();
 
 	text.Draw();
 }
@@ -60,18 +62,19 @@ void GameState::Exit()
 
 void GameState::EnemyBulletCollision()
 {
-	for (int i = 0;i < D_BULLET_MAX;i++)
+	for (int i = 0;i < gameobjects.size();i++)
 	{
-		if (bullets[i].isAlive)
+		if (gameobjects[i]->isAlive && gameobjects[i]->id == ID::BULLET)
 		{
-			for (int j = 0;j < D_ENEMY_MAX;j++)
+			for (int j = 0;j < gameobjects.size();j++)
 			{
-				if (enemys[j].isAlive && bullets[i].x == enemys[j].x &&
-					(bullets[i].y == enemys[j].y || bullets[i].y - 1 == enemys[j].y))
+				if (gameobjects[j]->isAlive && gameobjects[j]->id == ID::ENEMY
+					&& gameobjects[i]->x == gameobjects[j]->x &&
+					(gameobjects[i]->y == gameobjects[j]->y || gameobjects[i]->y - 1 == gameobjects[j]->y))
 				{
-					CreateEffect(enemys[j].x, enemys[j].y);
-					bullets[i].Disable();
-					enemys[j].Disable();
+					CreateObject(ID::EFFECT, gameobjects[j]->x, gameobjects[j]->y);
+					gameobjects[i]->Disable();
+					gameobjects[j]->Disable();
 					break;
 				}
 			}
@@ -79,39 +82,38 @@ void GameState::EnemyBulletCollision()
 	}
 }
 
-void GameState::CreateBullet(int x, int y)
+void GameState::CreateObject(ID id, int x, int y)
 {
-	for (int i = 0;i < D_BULLET_MAX;i++)
-	{
-		if (bullets[i].isAlive == false)
-		{
-			bullets[i].Enable(x, y);
-			GameMng::GetIns()->bulletSnd.Play();
-			break;
-		}
-	}
-}
+	if (id == ID::NONE)
+		return;
 
-void GameState::CreateEnemy(int x, int y)
-{
-	for (int i = 0;i < D_ENEMY_MAX;i++)
+	for (int i = 0;i < gameobjects.size();i++)
 	{
-		if (enemys[i].isAlive == false)
+		if (gameobjects[i]->id == id && gameobjects[i]->isAlive == false)
 		{
-			enemys[i].Enable(x, y);
-			break;
+			gameobjects[i]->Enable(x, y);
+			return;
 		}
 	}
-}
 
-void GameState::CreateEffect(int x, int y)
-{
-	for (int i = 0;i < D_EFFECT_MAX;i++)
+	Unit* unit = nullptr;
+	switch (id)
 	{
-		if (effects[i].isAlive == false)
-		{
-			effects[i].Enable(x, y);
-			break;
-		}
+	case BULLET:
+		unit = new Bullet();
+		break;
+	case ENEMY:
+		unit = new Enemy();
+		break;
+	case EFFECT:
+		unit = new Effect();
+		break;
 	}
+
+	if (unit)
+	{
+		unit->Enable(x, y);
+		gameobjects.push_back(unit);
+	}
+
 }

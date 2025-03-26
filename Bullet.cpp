@@ -4,6 +4,7 @@ Bullet::Bullet()
 {
 	body = '|';
 	fColor = GREEN;
+	id = ID::BULLET;
 }
 
 Bullet::~Bullet()

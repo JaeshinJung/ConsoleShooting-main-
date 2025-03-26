@@ -4,14 +4,16 @@ char effectBody[3][3][3] =
 {
 	{
 		{' ', ' ', ' '},
-		{' ', 'O', ' '},
+		{' ', '*', ' '},
 		{' ', ' ', ' '}
 	},
+
 	{
-		{' ', '|', ' '},
-		{'-', '+', '-'},
-		{' ', '|', ' '}
+		{' ', '*', ' '},
+		{'*', '*', '*'},
+		{' ', '*', ' '}
 	},
+
 	{
 		{'*', ' ', '*'},
 		{' ', '*', ' '},
@@ -24,6 +26,7 @@ Effect::Effect()
 	fColor = YELLOW;
 	index = 0;
 	indextUpdateTime = 0;
+	id = ID::EFFECT;
 }
 
 Effect::~Effect()
@@ -35,7 +38,7 @@ void Effect::Update()
 	if (isAlive && indextUpdateTime <= GetTickCount())
 	{
 		index++;
-		indextUpdateTime = GetTickCount() + 200;
+		indextUpdateTime = GetTickCount() + 300;
 
 		if (index >= 3)
 			Disable();

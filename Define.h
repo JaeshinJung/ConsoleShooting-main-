@@ -21,6 +21,11 @@ enum STATE
 	MENU, GAME, MAX
 };
 
+enum ID
+{
+	NONE, BULLET, ENEMY, EFFECT
+};
+
 #define D_BULLET_MAX 50
 #define D_ENEMY_MAX 50
 #define D_EFFECT_MAX 50
