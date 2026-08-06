@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# FMOD Engine SDK (c) Firelight Technologies — third-party, not project code
+inc/** linguist-vendored
+lib/** linguist-vendored
+
+# Attribute this project's own headers to C++ rather than C
+/*.h linguist-language=C++
