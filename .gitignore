@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.tlog
+*.exe
+*.log
+*.enc
